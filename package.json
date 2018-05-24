@@ -1,0 +1,33 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "simple node.js auth settings",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avivharuzi/node-auth.git"
+  },
+  "author": "Aviv Haruzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avivharuzi/node-auth/issues"
+  },
+  "homepage": "https://github.com/avivharuzi/node-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
