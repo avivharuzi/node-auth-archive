@@ -1,2 +1,3 @@
-# node-auth
-simple node.js auth settings
+# Node Auth
+
+Simple Node.js Auth project files.
